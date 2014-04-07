@@ -1,0 +1,10 @@
+If you want to test this on Ubuntu or Debian, you can install this application first:
+module-assistant
+
+
+1. build sys_reg and dram modules and install them.
+2. load modules into kernel.
+3. mknod /dev/phy_mem c 85 0
+4. compile fileview and mem_map
+5. run mem_map and do not exit.
+5. run fileview /dev/phy_mem
