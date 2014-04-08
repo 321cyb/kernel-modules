@@ -15,7 +15,7 @@
   }__attribute__((packed));
 */
 
- static unsigned int cr0,cr3,cr4;
+ static unsigned long cr0,cr3,cr4;
  static struct desc_ptr gdtr;
 
  static int my_proc_show(struct seq_file *m, void *v)
