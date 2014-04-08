@@ -8,3 +8,11 @@ module-assistant
 4. compile fileview and mem_map
 5. run mem_map and do not exit.
 5. run fileview /dev/phy_mem
+
+
+
+
+Copied from: http://ilinuxkernel.com/?p=1303, with minor modifications.
+
+
+Please note that totalram_pages only represent all physical RAM pages, it does not include PCI addresses.
